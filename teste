@@ -1,0 +1,14 @@
+<div class="content_full_width_page_product">
+    <div class="title_section_page_product" id="title_section_page_recomendacao"><h3>Recomendamos também</h3><span></span></div>
+    <div id="section_recomendacao_box">
+        <div class="products" id="products" >
+
+            <ul class="ul-produtos">
+                {foreach from=$sugestoes key=i item=produto_item}
+                {include file="../../container/cabecalho/produto_item.html"}
+                {/foreach}
+            </ul>
+
+        </div><!--products-home-->
+    </div>
+</div>
